@@ -57,7 +57,7 @@ Styling is done courtesy of a simple stylesheet to highlight JSON key-value pair
    <span style="color: #008800; font-weight: bold;">background-color</span><span style="color: #333333;">:</span> <span style="color: #007020;">ghostwhite</span>;
    <span style="color: #008800; font-weight: bold;">border</span><span style="color: #333333;">:</span> <span style="color: #6600ee; font-weight: bold;">1px</span> <span style="color: #008800; font-weight: bold;">solid</span> <span style="color: #007020;">silver</span>;
    <span style="color: #008800; font-weight: bold;">padding</span><span style="color: #333333;">:</span> <span style="color: #6600ee; font-weight: bold;">10px</span> <span style="color: #6600ee; font-weight: bold;">20px</span>;
-   <span style="color: #008800; font-weight: bold;">margin</span><span style="color: #333333;">:</span> <span style="color: #6600ee; font-weight: bold;">20px</span>; 
+   <span style="color: #008800; font-weight: bold;">margin</span><span style="color: #333333;">:</span> <span style="color: #6600ee; font-weight: bold;">20px</span>;
    }
 <span style="color: #bb0066; font-weight: bold;">.json-key</span> {
    <span style="color: #008800; font-weight: bold;">color</span><span style="color: #333333;">:</span> <span style="color: #007020;">brown</span>;
@@ -213,7 +213,7 @@ The icon specified in the manifest will be displayed on the toolbar. Right-click
 
 ### Running the extension
 
-To run the extension simply navigate to a URL that matches the pattern defined in the manifest.json and you should see something like this.
+To run the extension simply navigate to a URL that matches the pattern defined in the manifest.json and you should see the JSON nicely formatted.
 
 ### Debugging
 
