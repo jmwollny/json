@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "JSON Formatter",
+	"description": "Format JSON",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon.png"
+	},
+	"content_scripts": [{
+		"matches": ["http://localhost:3001/atlas/v2/geo/resolve*","http://localhost:8181/idvisualizations/*/v*/*","https://test-dev.watson.analytics.ibmcloud.com/idvisualizations/*/v*/*"],
+		"css": ["content.css"],
+		"js": ["content.js"]
+	}]
+}
