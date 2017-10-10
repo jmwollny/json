@@ -9,7 +9,7 @@
 		"default_icon": "icon.png"
 	},
 	"content_scripts": [{
-		"matches": ["http://localhost:3001/atlas/v2/geo/resolve*","http://localhost:8181/idvisualizations/*/v*/*","https://test-dev.watson.analytics.ibmcloud.com/idvisualizations/*/v*/*"],
+		"matches": ["<all_urls>"],
 		"css": ["content.css"],
 		"js": ["content.js"]
 	}]
