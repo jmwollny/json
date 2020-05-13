@@ -218,3 +218,19 @@ To run the extension simply navigate to a URL that matches the pattern defined i
 ### Debugging
 
 Debugging is exactly the same as normal Javascript debugging in Chrome. Navigate to a tab that is running the extension and press F12\. Notice that a new tab is provided for exploring any content scripts that have been injected into the browser page.
+
+### Git commands
+#### Ensure remote is added
+git remote add origin https://github.com/jmwollny/json
+
+git checkout master
+git checkout -b new-branch
+#### Make changes
+git add .
+git commit -m "commit message goes here"
+#### put the changes on github
+git push origin change-pretty-print-code
+#### create the PR, review and merge
+#### go back to the master branch and pull the new changes
+git checkout master
+git pull origin master
