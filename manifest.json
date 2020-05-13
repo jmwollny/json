@@ -1,13 +1,14 @@
 {
 	"manifest_version": 2,
-
 	"name": "JSON Formatter",
-	"description": "Format JSON",
 	"version": "1.0",
 
-	"browser_action": {
+	"description": "Format JSON",
+
+	"page_action": {
 		"default_icon": "icon.png"
 	},
+
 	"content_scripts": [{
 		"matches": ["<all_urls>"],
 		"css": ["content.css"],
