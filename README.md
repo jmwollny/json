@@ -11,7 +11,7 @@ The icon specified in the manifest will be displayed on the toolbar. Right-click
 
 To run the extension simply navigate to a URL that matches the pattern defined in the manifest.json and you should see the JSON nicely formatted.
 
-### Git commands ofr base workflow
+### Git commands for basic workflow
 1. git remote add origin https://github.com/jmwollny/json
 2. git checkout master
 3. git checkout -b new-branch
