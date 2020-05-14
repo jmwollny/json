@@ -10,13 +10,3 @@ The icon specified in the manifest will be displayed on the toolbar. Right-click
 ### Running the extension
 
 To run the extension simply navigate to a URL that matches the pattern defined in the manifest.json and you should see the JSON nicely formatted.
-
-### Git commands for basic workflow
-1. git remote add origin https://github.com/jmwollny/json
-2. git checkout master
-3. git checkout -b new-branch
-4. git add .
-5. git commit -m "commit message goes here"
-6. git push origin new-branch
-7. git checkout master
-8. git pull origin master
